@@ -14,6 +14,7 @@ gem 'jquery-rails'
 gem "haml", ">= 3.1.4"
 gem "haml-rails", ">= 0.3.4", :group => :development
 gem "twitter-bootstrap-rails", ">= 2.0.3", :group => :assets
+gem "nifty-generators", :group => :development
 
 group :development, :test do
   gem 'rspec-rails'
