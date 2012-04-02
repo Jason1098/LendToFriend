@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.3'
 gem 'sqlite3'
 gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
-gem 'oauth2', :git => 'git://github.com/intridea/oauth2.git'
+gem 'omniauth-facebook'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
